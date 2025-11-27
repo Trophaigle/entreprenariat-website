@@ -2,16 +2,16 @@ import React from "react";
 
 const skills = [
   {
-    category: "Logiciels",
+    category: "Software",
     items: ["MuseScore", "Cakewalk"]
   },
   {
     category: "Instruments",
-    items: ["Piano", "Guitare"]
+    items: ["Piano", "Guitar"]
   },
   {
     category: "Orchestration / Composition",
-    items: ["Orchestration sur papier", "Orchestration sur MuseScore"]
+    items: ["Paper orchestration", "Orchestration on MuseScore"]
   }
 ];
 
@@ -20,7 +20,7 @@ export default function TechnicalSkills() {
     <section className="bg-black py-12 px-6">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl font-bold text-white text-center mb-10">
-          Compétences techniques
+          Technical skills
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (

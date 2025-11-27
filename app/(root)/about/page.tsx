@@ -6,7 +6,7 @@ import Philosophy from '@/app/components/about/philosophy'
 import TechnicalSkills from '@/app/components/about/skills'
 import ZigzagTimelineAuto from '@/app/components/about/timeline'
 import Values from '@/app/components/about/values'
-import CustomerReviews from '@/app/components/shop/customerReviews'
+import CustomerReviews from '@/app/components/about/customerReviews'
 import React from 'react'
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
     <>
       <ZigzagTimelineAuto />
       <Values />
-      <CustomerReviews />
+      {/* <CustomerReviews /> */}
       <TechnicalSkills />
       <Galery />
       <Philosophy />

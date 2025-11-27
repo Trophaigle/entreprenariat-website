@@ -15,19 +15,19 @@ function Hero () {
         {/* Text section */}
         <div className="md:w-1/2 mb-10 md:mb-0 z-20 md:mr-10">
           <InfoBlock
-            title="Donnez à vos voix l’harmonie qu’elles méritent."
-            text="Service d'orchestration de chant polyphoniques Nordiques pour petits ou grands ensembles. Service sur mesure"
+            title="Orchestrating the Soul of Your Polyphonic Music"
+            text="Nordic polyphonic choir orchestration for small or large ensembles. Fully customized service."
           />
           <p className="text-gray-300 mt-4 text-sm mb-4">
-          Réponse rapide · Devis gratuit · Sans engagement
+           Fast Response · Free Quote · No Obligation
           </p>
-          <ButtonCTA label="Obtenir un devis gratuit" href="/service"/>
+          <ButtonCTA label="Get a Free Quote" href="/service"/>
         </div>
 
         {/* Image section */}
         <div className="md:w-1/2 z-0">
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/63/f8/bb/big-ben.jpg?w=900&h=500&s=1&pcx=1033&pcy=310&pchk=v1_bf93e1170e1f1f8d4cea"
+            src="https://swedesinthestates.com/wp-content/uploads/2019/12/lucia-1502589_1280.jpg"
             alt="Hero Image"
             className="object-right rounded-xl shadow-lg"
           />

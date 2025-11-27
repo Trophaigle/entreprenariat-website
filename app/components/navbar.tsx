@@ -23,9 +23,9 @@ function Navbar (){
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800 px-6">
           <Link
             href="/"
-            className="mr-4 block cursor-pointer py-1.5 text-titlecolor font-bold text-2xl"
+            className="mr-4 block cursor-pointer py-1.5 text-titlecolor font-bold text-xl"
           >
-            NEXTNEWS
+            NORDIC ARRANGEMENT
           </Link>
 
           {/* Mobile Hamburger */}

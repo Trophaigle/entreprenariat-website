@@ -10,9 +10,9 @@ function Footer (){
     {
       title: "Menu",
       links: [
-        { name: "Home", href: "/#" },
-        { name: "About", href: "/#" },
-        { name: "Service", href: "/#", badge: "New" },
+        { name: "Home", href: "/" },
+        { name: "About", href: "/about" },
+        { name: "Service", href: "/service", badge: "New" },
       ],
     },
     {
@@ -32,17 +32,17 @@ function Footer (){
   ];
 
   const socialIcons = [
-    { href: "#", label: "Patreon", icon: SiPatreon },
-    { href: "#", label: "Instagram", icon: SiInstagram },
-    { href: "#", label: "YouTube", icon: SiYoutube },
-    { href: "#", label: "LinkedIn", icon: SiLinkedin },
+    // { href: "#", label: "Patreon", icon: SiPatreon },
+    // { href: "#", label: "Instagram", icon: SiInstagram },
+    // { href: "#", label: "YouTube", icon: SiYoutube },
+    // { href: "#", label: "LinkedIn", icon: SiLinkedin },
   ];
 
   return (
     <footer className="bg-footercolor text-gray-300">
-      <div className="max-w-screen-lg mx-auto px-4 sm:px-6 py-10 grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 grid sm:grid-cols-2 md:grid-cols-4 gap-6">
         <div className="p-5">
-          <h3 className="font-bold text-2xl text-white">Company Name</h3>
+          <h3 className="font-bold text-2xl text-white">Nordic Arrangement</h3>
         </div>
 
         {sections.map((section, idx) => (
@@ -58,9 +58,9 @@ function Footer (){
       </div>
 
       <div className="bg-footercolor pt-2">
-        <div className="flex flex-col items-center max-w-screen-lg mx-auto px-3 py-5 border-t text-sm">
+        <div className="flex flex-col items-center max-w-5xl mx-auto px-3 py-5 border-t text-sm">
           <div className="flex flex-row mt-2">
-             {socialIcons.map(({ href, icon: Icon }, idx) => (
+             {/* {socialIcons.map(({ href, icon: Icon }, idx) => (
               <Link
                 key={idx}
                 href={href}
@@ -68,9 +68,9 @@ function Footer (){
               >
               <Icon size={24} />
               </Link>
-            ))}
+            ))} */}
           </div>
-          <div className="my-5">© Copyright 2020. All Rights Reserved.</div>
+          <div className="my-5">© Copyright 2025. All Rights Reserved.</div>
         </div>
       </div>
     </footer>

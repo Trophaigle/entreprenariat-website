@@ -10,14 +10,14 @@ function ServiceRequestForm() {
   const [notes, setNotes] = useState("");
   const [status, setStatus] = useState<"idle"|"loading"|"sent"|"error">("idle");
 
-  const instruments = {
-    Cordes: ["Violon", "Alto", "Violoncelle", "Contrebasse", "Harpe"],
-    Bois: ["Flûte", "Hautbois", "Clarinette", "Basson"],
-    Cuivres: ["Trompette", "Trombone", "Cor", "Tuba"],
-    Voix: ["Soprano", "Alto (voix)", "Ténor", "Basse"],
-    Percussions: ["Timpani", "Timbales", "Tambourin", "Bodhrán"],
-    Claviers: ["Piano", "Harmonium", "Synthétiseur"],
-  };
+ const instruments = {
+  Strings: ["Violin", "Viola", "Cello", "Double Bass", "Harp"],
+  Woodwinds: ["Flute", "Oboe", "Clarinet", "Bassoon"],
+  Brass: ["Trumpet", "Trombone", "Horn", "Tuba"],
+  Voices: ["Soprano", "Alto", "Tenor", "Bass"],
+  Percussion: ["Timpani", "Tambourine", "Drum", "Bodhrán"],
+  Keyboards: ["Piano", "Harmonium", "Synthesizer"],
+};
 
   const toggleCategory = (category: string) => {
     setExpanded(prev => ({
@@ -66,7 +66,7 @@ function ServiceRequestForm() {
     <section className="bg-black text-white py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center">
-          Créez votre demande d’orchestration
+         Request Your Custom Orchestration
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-10">
@@ -128,25 +128,25 @@ function ServiceRequestForm() {
 
           {/* Email */}
           <div>
-            <label className="block mb-2 text-lg">Votre email</label>
+            <label className="block mb-2 text-lg">Your Email</label>
             <input
               type="email"
               value={email}
               onChange={e => setEmail(e.target.value)}
               className="w-full bg-gray-900 border border-gray-700 rounded px-4 py-2"
-              placeholder="exemple@mail.com"
+              placeholder="example@mail.com"
               required
             />
           </div>
 
           {/* Notes */}
           <div>
-            <label className="block mb-2 text-lg">Vos spécifications</label>
+            <label className="block mb-2 text-lg">Your Details</label>
             <textarea
               value={notes}
               onChange={e => setNotes(e.target.value)}
               className="w-full h-40 bg-gray-900 border border-gray-700 rounded px-4 py-2"
-              placeholder="Décrivez votre projet..."
+              placeholder="Specify your project here..."
             />
           </div>
 
@@ -155,18 +155,18 @@ function ServiceRequestForm() {
             type="submit"
             className="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 rounded"
           >
-            {status === "loading" ? "Envoi..." : "Envoyer ma demande"}
+            {status === "loading" ? "Sending..." : "Submit my request"}
           </button>
         </form>
 
         {status === "sent" && (
           <p className="text-green-400 mt-4 text-center">
-            🎉 Votre demande a été envoyée avec succès !
+            🎉 Your request has been successfully submitted !
           </p>
         )}
         {status === "error" && (
           <p className="text-red-400 mt-4 text-center">
-            ❌ Une erreur est survenue. Réessayez.
+            ❌ An error occurred. Please try again.
           </p>
         )}
       </div>

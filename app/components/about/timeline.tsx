@@ -7,27 +7,27 @@ interface TimelineStep {
 const timelineSteps: TimelineStep[] = [
   {
     icon: "🇸🇪",
-    title: "Erasmus en Suède",
+    title: "Erasmus in Sweden",
     description:
-      "Découverte des villes, paysages et cultures locales en Suède, Norvège et Danemark."
+      "Exploring cities, landscapes, and local cultures in Sweden, Norway, and Denmark."
   },
   {
     icon: "🎹",
-    title: "Orchestre à Göteborg",
+    title: "Orchestra in Gothenburg",
     description:
-      "Participation à l'orchestre étudiant de Chalmers 'BarockEnsemble' en tant que claviériste."
+      "Participated in Chalmers Student Orchestra 'BarockEnsemble' as a keyboardist."
   },
   {
     icon: "🔥",
-    title: "Découverte de Lucia",
+    title: "Discovering Lucia",
     description:
-      "Assister aux célébrations de Lucia m'a fait découvrir les chants traditionnels nordiques."
+      "Attending Lucia celebrations introduced me to traditional Nordic songs."
   },
   {
     icon: "🎼",
-    title: "Passion et expertise",
+    title: "Passion and Expertise",
     description:
-      "Ma culture musicale large et mon attachement aux chants polyphoniques nordiques me permettent de créer des orchestrations sur mesure."
+      "My broad musical knowledge and dedication to Nordic polyphonic singing allow me to create custom orchestrations."
   }
 ];
 
@@ -35,7 +35,7 @@ export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-white text-center mb-12">
-        Pourquoi les chants nordiques ?
+        Why Nordic polyphonic singing?
       </h2>
 
       <div className="relative">
@@ -107,8 +107,8 @@ export default function ZigzagTimelineAuto() {
 
       <div className="mt-12 text-center px-6 md:px-32">
   <p className="text-gray-300 text-lg md:text-xl">
-    « Ce service d’orchestration est né de cette rencontre entre mes voyages, mon vécu musical en Scandinavie et mon attachement personnel à ces chants. 
-    C’est pour cela que je prends soin de les arranger avec respect, authenticité et sens artistique. »
+    This orchestration service was born from the intersection of my travels, my musical experience in Scandinavia, and my personal connection to these songs.
+That is why I take care to arrange them with respect, authenticity, and artistic sensitivity.
   </p>
 </div>
     </div>

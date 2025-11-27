@@ -4,23 +4,23 @@ import InfoBlock from '../utils/InfoBlock'
 
 function Missions () {
   return (
-<section className="relative py-20 px-6 text-white overflow-visible">
+<section className="relative py-20 px-6 text-white overflow-visible
+bg-[radial-gradient(circle_at_30%_50%,rgba(120,124,104,0.4)_0%,transparent_20%)]">
 
   <div className="container mx-auto px-4 md:px-6 relative">
 
     {/* 🔥 Section Mission Text */}
     <div className="mt-3 max-w-3xl">
       <InfoBlock
-        title="Ma mission"
+        title="My mission"
         text={
           <>
-            À travers l’orchestration, la composition et le travail artistique, 
-            mon objectif est de créer des expériences qui <strong>élèvent</strong>, 
-            qui <strong>rassemblent</strong> et qui <strong>réenchantent</strong> 
-            le quotidien.
+            Through orchestration, composition, and artistic work, 
+            my goal is to create experiences that <strong>uplift</strong>, 
+            <strong> bring people together</strong>, and <strong>re-enchant</strong> everyday life.
             <br /><br />
-            J’explore l’imaginaire nordique pour apporter un souffle 
-            de beauté, d’évasion et de profondeur dans un monde qui en a besoin.
+            I explore the Nordic imagination to bring a sense 
+            of beauty, escape, and depth into a world that needs it.
           </>
         }
       />
