@@ -42,7 +42,7 @@ function Navbar (){
 
           {/* Mobile Menu */}
           <div
-            className={`fixed top-0 left-0 min-h-screen w-64 bg-slate-100 shadow-lg transform transition-transform duration-300 ease-in-out ${
+            className={`fixed top-0 left-0 min-h-screen w-64 bg-navbarcolor shadow-lg transform transition-transform duration-300 ease-in-out ${
               isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
             } lg:hidden z-50`}
           >
@@ -51,7 +51,7 @@ function Navbar (){
                 href="/"
                 className="cursor-pointer text-gray-300 font-bold text-xl pt-4 ps-4"
               >
-                NEXTNEWS
+                NORDIC ARRANGEMENT
               </Link>
               <button
                 onClick={toggleMobileMenu}
@@ -72,11 +72,11 @@ function Navbar (){
                   </Link>
                 </li>
               ))}
-              <li className="mt-4">
+              {/* <li className="mt-4">
                 <button className="bg-red-600 text-white px-8 py-2 rounded-md hover:bg-red-500">
                   Login
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
 

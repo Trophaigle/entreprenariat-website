@@ -35,7 +35,7 @@ export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-white text-center mb-12">
-        Why Nordic polyphonic singing?
+        Why Nordic polyphonic music ?
       </h2>
 
       <div className="relative">

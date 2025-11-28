@@ -23,12 +23,12 @@ function Footer (){
         { name: "Conditions", href: "/#" },
       ],
     },
-    {
-      title: "Contact us",
-      links: [
-        // { name: "contact  [at] company.com", href: "/#" },
-      ],
-    },
+    // {
+    //   title: "Contact us",
+    //   links: [
+    //     // { name: "contact  [at] company.com", href: "/#" },
+    //   ],
+    // },
   ];
 
   const socialIcons = [
