@@ -16,7 +16,9 @@ function Hero () {
         <div className="md:w-1/2 mb-10 md:mb-0 z-20 md:mr-10">
           <InfoBlock
             title="Orchestrating the Soul of Your Polyphonic Music"
-            text="Nordic polyphonic choir orchestration for small or large ensembles. Fully customized service."
+            text="Orchestration and polyphonic choral arrangements inspired by Nordic music traditions.
+            Independent arranger and orchestrator based in France.
+            Tailored scores for small and large ensembles."
           />
           <p className="text-gray-300 mt-4 text-sm mb-4">
            Fast Response · Free Quote · No Obligation
